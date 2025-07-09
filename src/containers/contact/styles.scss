@@ -1,0 +1,43 @@
+.contact {
+  padding: 4rem 2rem;
+
+  &__form {
+    max-width: 600px;
+    margin: 3rem auto 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+
+    input, textarea {
+      width: 100%;
+      padding: 1.2rem;
+      border: 1px solid var(--white-theme-main-color);
+      background-color: transparent;
+      color: var(--white-theme-main-color);
+      border-radius: 6px;
+      font-size: 1.6rem;
+    }
+
+    textarea {
+      height: 150px;
+      resize: none;
+    }
+
+    button {
+      padding: 1rem 2rem;
+      border: none;
+      background-color: var(--white-theme-main-color);
+      color: var(--blue-theme-background-color);
+      font-size: 1.6rem;
+      font-weight: 600;
+      border-radius: 6px;
+      cursor: pointer;
+
+      &:hover {
+        background-color: transparent;
+        color: var(--white-theme-main-color);
+        border: 1px solid var(--white-theme-main-color);
+      }
+    }
+  }
+}

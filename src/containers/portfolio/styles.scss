@@ -1,0 +1,53 @@
+.portfolio {
+  padding: 4rem 2rem;
+
+  &__timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin-top: 3rem;
+
+    &__item {
+      margin: 1rem 2rem;
+      background-color: rgba(0, 0, 0, 0.6); 
+      padding: 2rem;
+      border-left: 4px solid var(--white-theme-main-color);
+      border-radius: 8px;
+      color: var(--white-theme-main-color);
+      text-decoration: none;
+      transition: all 0.3s ease;
+      cursor: pointer;
+      position: relative;
+      backdrop-filter: blur(5px);
+
+      &:hover {
+        background-color: var(--white-theme-main-color);
+        color: var(--blue-theme-background-color);
+        transform: translateX(8px);
+      }
+
+      h3 {
+        font-size: 2.4rem;
+        margin-bottom: 0.5rem;
+      }
+
+      h4 {
+        font-size: 1.8rem;
+        color: #ccc;
+        margin-bottom: 0.5rem;
+      }
+
+      .date {
+        font-size: 1.4rem;
+        font-style: italic;
+        color: #aaa;
+        margin-bottom: 1rem;
+      }
+
+      p {
+        font-size: 1.5rem;
+        line-height: 1.7;
+      }
+    }
+  }
+}

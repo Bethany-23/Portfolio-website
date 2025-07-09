@@ -1,0 +1,43 @@
+.about__content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; // align everything to the left
+  padding: 2rem;
+
+  h3 {
+    font-size: 2.4rem;
+    margin: 2rem 0 1rem 0;
+    color: var(--white-theme-main-color);
+  }
+
+  p {
+    font-size: 1.6rem;
+    color: var(--white-theme-sub-text-color);
+    line-height: 1.8;
+    text-align: left;
+    max-width: 800px;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+
+    li {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+      display: flex;
+      gap: 1rem;
+
+      .title {
+        font-weight: 600;
+        color: var(--white-theme-main-color);
+        min-width: 120px;
+      }
+
+      .value {
+        color: var(--white-theme-sub-text-color);
+      }
+    }
+  }
+}

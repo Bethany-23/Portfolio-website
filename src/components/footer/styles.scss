@@ -1,0 +1,37 @@
+.footer {
+  background-color: rgba(0, 0, 0, 0.6); // matches navbar
+  backdrop-filter: blur(6px);
+  padding: 2rem 1rem;
+  margin-top: 5rem;
+  text-align: center;
+  color: var(--white-theme-sub-text-color);
+  border-top: 1px solid var(--white-theme-main-color);
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+
+    p {
+      font-size: 1.4rem;
+    }
+  }
+
+  &__socials {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+
+    a {
+      color: var(--white-theme-main-color);
+      font-size: 2rem;
+      transition: transform 0.3s ease;
+
+      &:hover {
+        transform: scale(1.2);
+        color: var(--blue-theme-background-color);
+      }
+    }
+  }
+}

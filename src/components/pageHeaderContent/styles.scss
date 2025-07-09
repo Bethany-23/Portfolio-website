@@ -1,0 +1,25 @@
+.wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between; 
+  padding: 60px 20px 20px 20px;
+  border-bottom: 1px solid var(--white-theme-main-color);
+
+
+  h2 {
+    font-size: 5.4rem;
+    font-weight: 700;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--white-theme-main-color);
+    margin: 5rem 0 0 0;
+  }
+
+  span {
+    margin: 5rem 0 0 0;
+
+    svg {
+      color: var(--white-theme-main-color);
+      font-size: 4rem;
+    }
+  }
+}
