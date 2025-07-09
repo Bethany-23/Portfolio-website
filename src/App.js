@@ -10,6 +10,7 @@ import Contact from './containers/contact';
 import NavBar from './components/navBar';
 import Footer from './components/footer';
 import ParticlesComponent from './particles';
+import SinglePageHome from './containers/singlePageHome';
 
 function App() {
   const location = useLocation();
@@ -25,7 +26,7 @@ function App() {
       {/* main page content */}
       <div className='App__main-page-content'>
       <Routes> 
-        <Route index path ='/' element ={<Home/>}/>
+        <Route index path ='/' element ={<SinglePageHome/>} />
         <Route path = '/about' element = {<About/>}/>
         <Route path = '/skills' element = {<Skills/>}/>
         <Route path = '/portfolio' element = {<Portfolio/>}/>

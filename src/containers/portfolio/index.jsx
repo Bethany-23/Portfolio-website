@@ -27,10 +27,10 @@ const projects = [
   }
 ];
 
-const Portfolio = () => {
+const Portfolio = ({ isSinglePage = false }) => {
   return (
-    <section id="portfolio" className="portfolio">
-      <PageHeaderContent headerText="Portfolio" icon={<FaFolderOpen size={40} />} />
+    <section id="portfolio" className={`porfolio ${isSinglePage ? 'single-home' : ''}`}>
+      <PageHeaderContent headerText="Portfolio" icon={<FaFolderOpen size={40} color={isSinglePage ? '#77BFA3' : undefined}/>} />
       <div className="portfolio__timeline">
         {projects.map((project, index) => (
           <a
