@@ -1,4 +1,4 @@
-import React from "react";
+
 import PageHeaderContent from "../../components/pageHeaderContent";
 import { FaFolderOpen } from "react-icons/fa";
 import "./styles.scss";
@@ -9,27 +9,27 @@ const projects = [
     client: "iCog Labs",
     date: "July 2025",
     description: "A responsive landing and home page using HTML, CSS, and Bootstrap.",
-    github: "https://github.com/yourusername/landing-page"
+    github: "https://github.com/Bethany-23/iCog_landing_page.git"
   },
   {
     name: "Portfolio Website",
     client: "Personal",
     date: "June 2025",
     description: "My personal developer portfolio built with React and SCSS.",
-    github: "https://github.com/yourusername/portfolio"
+    github: "https://github.com/Bethany-23/Portfolio-website.git"
   },
   {
     name: "SkillBoost",
     client: "Project",
     date: "May 2025",
     description: "A skill sharing app using Flutter.",
-    github: "https://github.com/yourusername/todo-app"
+    github: "https://github.com/Beth-22/SKILLBOOST_FLUTTER_2025.git"
   }
 ];
 
 const Portfolio = ({ isSinglePage = false }) => {
   return (
-    <section id="portfolio" className={`porfolio ${isSinglePage ? 'single-home' : ''}`}>
+    <section id="portfolio" className={`portfolio ${isSinglePage ? 'single-home' : ''}`}>
       <PageHeaderContent headerText="Portfolio" icon={<FaFolderOpen size={40} color={isSinglePage ? '#77BFA3' : undefined}/>} />
       <div className="portfolio__timeline">
         {projects.map((project, index) => (

@@ -2,7 +2,7 @@ import "./styles.scss";
 import { Animate } from "react-simple-animate";
 
 /*  ✅  Put your PDF (e.g. Betanya_Addisalem_CV.pdf) in  /public  */
-const CV_PATH = "/Betanya_Addisalem_CV.pdf";
+const CV_PATH = "/Betanya-Addisalem-CV.pdf";
 
 const Home = () => {
   return (
@@ -23,7 +23,7 @@ const Home = () => {
         end={{ transform: "translateY(0)" }}
       >
         <div className="home__cv">
-          {/* ✅ the magic download attribute */}
+          {/*the download attribute */}
           <a href={CV_PATH} download className="cv-btn">
             Download&nbsp;CV
           </a>

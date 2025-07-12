@@ -6,9 +6,9 @@ import './styles.scss';
 import devAnimation from '../../assets/lotties/dev.json';
 
 const details = [
-  { label: 'Name', value: 'Betanya' },
-  { label: 'Email', value: 'bbbbbb@gmail.com' },
-  { label: 'Phone no', value: '123456789' },
+  { label: 'Name', value: 'Betanya Addisalem' },
+  { label: 'Email', value: 'bethanyaddis7@gmail.com' },
+  { label: 'Phone no', value: '+251933668090' },
 ];
 
 const jobSummary = `
