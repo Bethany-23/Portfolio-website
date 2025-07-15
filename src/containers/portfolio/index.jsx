@@ -9,7 +9,7 @@ const projects = [
     client: "iCog Labs",
     date: "July 2025",
     description: "A responsive landing and home page using tailwind and react.",
-    github: "https://github.com/Bethany-23/iCog_landing_page.git"
+    github: "https://i-cog-landing-pageredesign.vercel.app/"
   },
   {
     name: "Portfolio Website",
