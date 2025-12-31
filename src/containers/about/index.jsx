@@ -12,11 +12,11 @@ const details = [
 ];
 
 const jobSummary = `
-I'm a Frontend Developer who loves bringing ideas to life on the web. 
-I specialize in building responsive, accessible, and visually clean interfaces using HTML, CSS, JavaScript, and React. 
-Whether it’s creating smooth animations, pixel-perfect layouts, or turning a Figma design into a live website, 
-I enjoy crafting user experiences that feel intuitive and engaging. 
-I'm always learning, always improving and passionate about writing clean code that scales.
+I’m a software engineer who enjoys building modern web applications and turning ideas into reliable, user-friendly products.
+ I work with HTML, CSS, JavaScript, and React to create responsive, accessible, and visually consistent interfaces, 
+ and I also have experience developing web applications that integrate backend services using Node.js, Express, and MongoDB. 
+ I enjoy translating designs from Figma into working features, focusing on clarity, usability, and maintainable code.
+  Always learning and improving, I value clean, scalable solutions and thoughtful user experiences.
 `;
 
 const About = ({ isSinglePage = false }) => {
@@ -40,7 +40,7 @@ const About = ({ isSinglePage = false }) => {
             start={{ transform: 'translateX(-800px)' }}
             end={{ transform: 'translateX(0px)' }}
           >
-            <h3 className="section-heading">Frontend Developer</h3>
+            <h3 className="section-heading">Software Developer</h3>
             <p className="job-summary">{jobSummary}</p>
           </Animate>
 

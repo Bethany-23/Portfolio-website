@@ -5,11 +5,11 @@ import "./styles.scss";
 
 const projects = [
   {
-    name: "Landing Page",
-    client: "iCog Labs",
+    name: "Bookish",
+    client: "Personal",
     date: "July 2025",
-    description: "A responsive landing and home page using tailwind and react.",
-    github: "https://i-cog-landing-pageredesign.vercel.app/"
+    description: "A fullstack web app made using mern.",
+    github: "https://github.com/Bethany-23/js-mini-projects/tree/main/Bookish_remade"
   },
   {
     name: "Portfolio Website",

@@ -2,7 +2,7 @@ import "./styles.scss";
 import { Animate } from "react-simple-animate";
 
 /*  ✅  Put your PDF (e.g. Betanya_Addisalem_CV.pdf) in  /public  */
-const CV_PATH = "/Betanya-Addisalem-CV.pdf";
+const CV_PATH = "/Betanya_Addisalem_CV.pdf";
 
 const Home = () => {
   return (
@@ -11,7 +11,7 @@ const Home = () => {
         <h1>
           Hello, I’m Betanya
           <br />
-          Frontend&nbsp;Developer
+          Software&nbsp;Developer
         </h1>
       </div>
 

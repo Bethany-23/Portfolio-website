@@ -4,7 +4,7 @@ import PageHeaderContent from "../../components/pageHeaderContent";
 import { FaLaptopCode } from "react-icons/fa";
 import "./styles.scss";
 
-const frontendSkills = ["HTML", "CSS", "Bootstrap", "Tailwind","JavaScript", "React", , "Flutter", "Kotlin"];
+const frontendSkills = ["HTML", "CSS", "Tailwind","JavaScript", "React", "NodeJs", "expressJs", "MongoDB"];
 const designSkills = ["Photoshop", "Illustrator", "Canva", "Figma"];
 
 const Skills = () => {
@@ -13,7 +13,7 @@ const Skills = () => {
       <PageHeaderContent headerText="Skills" icon={<FaLaptopCode size={40} />} />
 
       <div className="skills__category">
-        <h4 className="category__title">Frontend Development</h4>
+        <h4 className="category__title">Software Development</h4>
         <div className="skills__list">
           {frontendSkills.map((skill, i) => (
             <div className="skill__box fadeInUp" key={i} style={{ animationDelay: `${i * 0.1}s` }}>
