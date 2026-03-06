@@ -12,11 +12,11 @@ const details = [
 ];
 
 const jobSummary = `
-I’m a software engineer who enjoys building modern web applications and turning ideas into reliable, user-friendly products.
- I work with HTML, CSS, JavaScript, and React to create responsive, accessible, and visually consistent interfaces, 
- and I also have experience developing web applications that integrate backend services using Node.js, Express, and MongoDB. 
- I enjoy translating designs from Figma into working features, focusing on clarity, usability, and maintainable code.
-  Always learning and improving, I value clean, scalable solutions and thoughtful user experiences.
+Software Engineer with a strong foundation in building modern web applications using JavaScript and React.
+ With a background in UI/UX and Graphic Design, I bring a user-centered approach to both interface design 
+ and implementation, ensuring products are as functional as they are intuitive. Currently deepening my expertise 
+ within the AI stream of Software Engineering, I am focused on bridging the gap between design-driven frontends and 
+ emerging AI technologies to build the next generation of web experiences.
 `;
 
 const About = ({ isSinglePage = false }) => {

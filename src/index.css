@@ -1,12 +1,11 @@
 
 
 :root{
-    --blue-theme-background-color:#77BFA3;
+    --blue-theme-background-color: linear-gradient(135deg, #3a8dde, #2dd4bf);
     --white-theme-main-color:#FFFDF6;
     --white-theme-sub-text-color:#DDE7C7;
     --blue-theme-nav-background-color:#98C9A3;
 }
-
 *{
     box-sizing : border-box;
     padding: 0;
@@ -20,10 +19,10 @@ html{
 }
 
 body{
-    background: var(--blue-theme-background-color);
-    height:100%;
+  background: radial-gradient(circle at top, #1b3a3f, #0e2226 60%, #071214);
+  height:100%;
+  color: var(--white-theme-main-color);
 }
-
 #root{
     height:100%;
 }

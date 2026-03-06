@@ -5,25 +5,25 @@ import "./styles.scss";
 
 const projects = [
   {
-    name: "Bookish",
-    client: "Personal",
-    date: "July 2025",
-    description: "A fullstack web app made using mern.",
-    github: "https://github.com/Bethany-23/js-mini-projects/tree/main/Bookish_remade"
-  },
-  {
-    name: "Portfolio Website",
-    client: "Personal",
-    date: "June 2025",
-    description: "My personal developer portfolio built with React and SCSS.",
-    github: "https://github.com/Bethany-23/Portfolio-website.git"
-  },
-  {
     name: "SkillBoost",
     client: "Project",
     date: "May 2025",
     description: "A skill sharing app using Flutter.",
     github: "https://github.com/Beth-22/SKILLBOOST_FLUTTER_2025.git"
+  },
+   {
+    name: "wine quality prediction",
+    client: "collaborative",
+    date: "January 2026",
+    description: "A ML project",
+    github: "https://github.com/Tselot8/wine-quality-ml-project.git"
+  },
+   {
+    name: "Portfolio Website",
+    client: "Personal",
+    date: "June 2025",
+    description: "My personal developer portfolio built with React and SCSS.",
+    github: "https://github.com/Bethany-23/Portfolio-website.git"
   }
 ];
 

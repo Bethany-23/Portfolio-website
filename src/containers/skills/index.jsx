@@ -4,7 +4,7 @@ import PageHeaderContent from "../../components/pageHeaderContent";
 import { FaLaptopCode } from "react-icons/fa";
 import "./styles.scss";
 
-const frontendSkills = ["HTML", "CSS", "Tailwind","JavaScript", "React", "NodeJs", "expressJs", "MongoDB"];
+const frontendSkills = ["HTML", "CSS", "Tailwind","JavaScript", "React", ];
 const designSkills = ["Photoshop", "Illustrator", "Canva", "Figma"];
 
 const Skills = () => {
