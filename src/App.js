@@ -2,7 +2,6 @@
 import './App.scss';
 
 import { Routes, Route, useLocation } from 'react-router-dom';
-import Home from './containers/home';
 import About from './containers/about';
 import Skills from './containers/skills';
 import Portfolio from './containers/portfolio';
