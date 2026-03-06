@@ -4,14 +4,11 @@ import { loadSlim } from "@tsparticles/slim";
 
 const ParticlesComponent = (props) => {
   const [particleCount, setParticleCount] = useState(150); 
-  const [init, setInit] = useState(false);
+  // REMOVED: unused 'init' state that was causing the Vercel error
 
-  
   useEffect(() => {
     initParticlesEngine(async (engine) => {
       await loadSlim(engine);
-    }).then(() => {
-      setInit(true);
     });
   }, []);
 
@@ -19,21 +16,17 @@ const ParticlesComponent = (props) => {
     console.log(container);
   };
 
-  
   useEffect(() => {
     const handlePageClick = () => {
       setParticleCount((prev) => prev + 50); 
     };
 
     window.addEventListener("click", handlePageClick);
-
-    
     return () => {
       window.removeEventListener("click", handlePageClick);
     };
   }, []);
 
-  
   const options = useMemo(
     () => ({
       background: {
